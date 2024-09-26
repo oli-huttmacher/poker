@@ -1,0 +1,136 @@
+/* reset css*/
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   font-family: 'Poppins', sans-serif;
+   background-color: #f1f1f1;
+}
+.container{
+   max-width: 1170px;
+   margin: auto;
+   overflow: hidden;
+   padding: 0 20px;
+   border: 2ps solid red;
+   
+}  
+#name-room{
+   font-size: 1.5rem;
+   font-weight: 600;
+
+   color: #cf1717;
+   margin-bottom: 20px;    
+}
+#date-room{
+   font-size: 1rem;
+   font-weight: 400;
+   color: #333;
+   margin-bottom: 20px; 
+   color: #cf1717;   
+}
+#create-room{
+   font-size: 1rem;
+   font-weight: 400;
+   padding: 2px;
+   color: #333;
+   margin-bottom: 20px;
+   background: #4c912c; 
+   color: beige;
+
+}
+#container-room{
+   
+   font-size: 1rem;
+   font-weight: 400;
+   padding: 2px;
+   color: #333;
+   margin-bottom: 20px;
+   background: #4c912c; 
+   color: beige;
+   text-align: center;
+
+}
+.container-create-room{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+}
+#delete-room{
+   /* font-size: 1rem; */
+   margin-top: 3px;
+   padding: 2px;
+   background: #f60707; 
+   color: rgb(255, 255, 255);
+   border-radius: ;
+}
+#delete-room:hover{
+   background: #ffffff; 
+   pointer: cursor;
+   color: #f60707;
+   
+}
+
+.ContainerCreateJoueur{
+   position: relative;
+   display: inline-block;
+   border: 2px solid red;
+}
+
+#createinputJoueurs{
+  
+   font-size: 1rem;
+   font-weight: 400;
+   padding: 2px;
+
+   color: #cf1717;
+}
+.delete-icon{
+   position: absolute;
+    right: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 20px; /* Ajustez la taille selon vos besoins */
+    height: 20px; /* Ajustez la taille selon vos besoins */
+}
+#confirm-joueur{
+   padding: 4px;
+
+}
+.container-joueur{
+   margin-bottom: 5px;
+   background: #8692c0; 
+   padding: 5px;
+   border-radius: 5px;
+   border: 2px solid red;
+   box-shadow: 10px 10px 5px #888888;
+
+   
+  
+}
+#container-players{
+   /* width: 50%; */
+   height: auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: start;
+   align-items: start;
+   flex-wrap: wrap;
+   gap: 10px;
+   padding: 10px;
+   
+}
+.create-joueurs{
+   margin-top: 20px;
+   font-size: 1rem;
+}
+.btn-confirm-joueur{
+   padding: 5px;
+   background: #4c912c; 
+   color: beige;
+   border-radius: 5px;
+}
